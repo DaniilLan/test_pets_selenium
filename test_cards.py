@@ -7,8 +7,8 @@ def login_pets(browser_web):
 
     browser_web.find_element(By.CLASS_NAME, 'btn.btn-success').click()
     browser_web.find_element(By.XPATH, '/html/body/div/div/form/div[4]/a').click()
-    browser_web.find_element(By.ID, "email").send_keys("dqwdqw2d@dwdwd.tr")
-    browser_web.find_element(By.ID, "pass").send_keys("Lion163163")
+    browser_web.find_element(By.ID, "email").send_keys("")
+    browser_web.find_element(By.ID, "pass").send_keys("")
     browser_web.find_element(By.XPATH, "/html/body/div/div/form/div[3]/button").click()
 
 
